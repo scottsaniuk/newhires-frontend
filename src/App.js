@@ -169,7 +169,7 @@ function App() {
       .then(data => setNewEmployees(data.employees))
     }, [nothing])
 
-
+  //this is a pointless comment
   const expandMenu = () => {
     var menu = document.getElementById('bottom')
     menu.style.visibility = 'visible'
